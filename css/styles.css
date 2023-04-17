@@ -269,6 +269,9 @@ p {
 .worker-position {
   text-align: center;
 }
+.workers-socials {
+  fill: var(--cloud);
+}
 .socials {
   display: flex;
   justify-content: center;
