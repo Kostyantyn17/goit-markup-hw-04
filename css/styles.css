@@ -297,7 +297,6 @@ p {
   margin-top: 120px;
   margin-bottom: 72px;
   line-height: 1.1;
-  margin-bottom: 72px;
 }
 .customer-list {
   display: flex;
@@ -322,9 +321,9 @@ p {
 }
 .customer-item-link:hover,
 .customer-item-link:focus {
-border-color: var(--ocean);
-color: var(--ocean);
-fill: var(--ocean);
+  border-color: var(--ocean);
+  color: var(--ocean);
+  fill: var(--ocean);
 }
 .customer-icon {
   fill: currentColor;
@@ -365,6 +364,14 @@ fill: var(--ocean);
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+.portfolio-link {
+  display: block;
+}
+.portfolio-link:hover,
+.portfolio-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-item {
   padding: 0;
