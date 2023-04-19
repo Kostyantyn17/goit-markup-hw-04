@@ -425,8 +425,10 @@ p {
 }
 .footer-conteiner {
   display: flex;
-  gap: 120px;
   align-items: baseline;
+}
+.footer-left {
+  margin-right: 120px;
 }
 .social-link-footer {
   display: flex;
